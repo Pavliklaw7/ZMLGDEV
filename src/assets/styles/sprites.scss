@@ -1,0 +1,32 @@
+.sprite-1,
+.sprite-2,
+.sprite-3 {
+  background-clip: padding-box;
+  background-image: url(../css_sprites.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+.sprite-1 {
+  background-position: -5px -10px;
+  height: 200px;
+  width: 200px;
+  z-index: 3;
+}
+
+.sprite-2 {
+  background-position: 0 -10px;
+  height: 200px;
+  width: 200px;
+  z-index: 2;
+  position: absolute;
+}
+
+.sprite-3 {
+  background-position: -360px 0;
+  height: 200px;
+  width: 200px;
+}

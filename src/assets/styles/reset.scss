@@ -1,0 +1,14 @@
+/* Reset */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body,
+p,
+h1,h2,h3,h4 {
+  padding: 0;
+  margin: 0;
+}
